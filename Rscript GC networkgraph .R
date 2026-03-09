@@ -52,6 +52,5 @@ ggraph(g, layout = "fr") +
   scale_size(range = c(2, 8), name = "Mean\nExpression") +
   geom_node_text(aes(label = name), repel = TRUE, size = 2.5) +
   theme_void() +
-  labs(title    = "Full Gene Co-expression Network (Spearman ≥ 0.5 | ≤ -0.2)",
-       subtitle = "Red edges = positive correlation | Blue edges = negative correlation")
+  labs(title    = "Full Gene Co-expression Network (Spearman ≥ 0.5 | ≤ -0.2)")
 
